@@ -10,3 +10,6 @@ learnt how to put game into an object
 
 Commit 4:
 learnt how to draw an image in pygame
+
+Commit 5:
+learnt how to make an image go up and down
