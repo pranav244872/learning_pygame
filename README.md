@@ -13,3 +13,6 @@ learnt how to draw an image in pygame
 
 Commit 5:
 learnt how to make an image go up and down
+
+Commit 6:(simulation branch)
+implemented the same shit but with background image and car

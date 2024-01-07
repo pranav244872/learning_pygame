@@ -4,15 +4,16 @@ class Game:
     def __init__(self):
         pygame.init()
         pygame.display.set_caption('traffic')
-        self.screen = pygame.display.set_mode((640, 480))
+        self.screen = pygame.display.set_mode((1920, 1080))
+        self.background_image = pygame.image.load("bg.png")
         self.clock = pygame.time.Clock()
-        self.img = pygame.image.load('obj.png')
-        self.img_pos = [160,260]
+        self.img = pygame.image.load('car.png')
+        self.img_pos = [1,526]
         self.movement = [False,False]
     def run(self):
         while True:
             #Refreshing screen after each frame
-            self.screen.fill((14, 219, 248))
+            self.screen.blit(self.background_image, (0,0))
 
             #Converting the boolean values to integers true = 1 and moving the image 1px at a time
             self.img_pos[1] += self.movement[1] - self.movement[0]
