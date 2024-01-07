@@ -16,3 +16,7 @@ learnt how to make an image go up and down
 
 Commit 6:(simulation branch)
 implemented the same shit but with background image and car
+
+Commit 7:(simulation branch)
+made car go from one point to another point
+
