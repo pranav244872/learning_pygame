@@ -11,9 +11,14 @@ class Game:
         self.movement = [False,False]
     def run(self):
         while True:
+            #Refreshing screen after each frame
             self.screen.fill((14, 219, 248))
+
+            #Converting the boolean values to integers true = 1 and moving the image 1px at a time
             self.img_pos[1] += self.movement[1] - self.movement[0]
             self.screen.blit(self.img, self.img_pos)
+
+            #logic for movement
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
