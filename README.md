@@ -1,15 +1,6 @@
-# Learning Pygame
-Commit 1:
-installed pygame with pip install pygame
+# Learning Pygame: Feed the Dragon Game
 
-Commit 2:
-got the code running for a basic pygame empty window with 640,480 resolution
+Welcome to my repository where I'm learning Pygame and game development! This repository documents my progress as I explore Pygame and build various games.
 
-Commit 3:
-learnt how to put game into an object
-
-Commit 4:
-learnt how to draw an image in pygame
-
-Commit 5:
-learnt how to make an image go up and down
+## Project: Feed the Dragon Game
+![2024-07-05-183305_hyprshot](https://github.com/pranav244872/learning_pygame/assets/137860111/ac0a418c-49f0-4863-a862-c14b7e3b970b)
